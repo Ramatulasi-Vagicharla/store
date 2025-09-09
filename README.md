@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # store
 =======
 <<<<<<< HEAD
@@ -25,3 +26,6 @@ API used: https://fakestoreapi.com/docs#tag/Products
 # E-commerce-dashboard-
 >>>>>>> 7dc4820e43a035af96981ded42352a1b079b9154
 >>>>>>> 56a2cc8 (Initial commit)
+=======
+# store
+>>>>>>> 535ed6655374c64d0a63e1d32573610b8d312452
