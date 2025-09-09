@@ -48,3 +48,20 @@ Clone the repository:
 ```bash
 git clone https://github.com/Ramatulasi-Vagicharla/store.git
 cd store
+
+Install dependencies:
+
+npm install
+
+
+Run development server:
+
+npm run dev
+
+
+Open in browser: http://localhost:3000
+
+Build for production:
+
+npm run build
+npm start
