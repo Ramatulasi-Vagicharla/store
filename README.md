@@ -1,31 +1,50 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# store
-=======
-<<<<<<< HEAD
+# 🛍️ Fake Store Dashboard
 
-# Fake Store Mini E‑commerce Dashboard
+A mini e-commerce dashboard built with **Next.js** that allows users to browse products, search, filter, sort, view product details, and add items to a cart with persistent storage.  
+Deployed with **Vercel**.
 
-Features included:
-- Product listing (grid) with image, title, price, category
-- Search by title, filter by category, sort by price (asc/desc)
-- Product detail page with title, price, description, rating, and Add to Cart
-- Cart persisted in localStorage (no summary view required)
-- Dark/Light theme toggle (persisted)
-- Skeleton loaders, loading/error states, retry
-- Responsive (mobile-first)
-- Next.js pages-based scaffold
+---
 
-To run:
-1. `npm install`
-2. `npm run dev`
-Visit http://localhost:3000
+## 🚀 Features
 
-API used: https://fakestoreapi.com/docs#tag/Products
-=======
-# E-commerce-dashboard-
->>>>>>> 7dc4820e43a035af96981ded42352a1b079b9154
->>>>>>> 56a2cc8 (Initial commit)
-=======
-# store
->>>>>>> 535ed6655374c64d0a63e1d32573610b8d312452
+- **Product Listing Page**
+  - Browse products in a responsive grid layout
+  - Search by product title
+  - Filter by category
+  - Sort by price (Low → High / High → Low)
+  - Loading skeletons while fetching
+  - Error handling with retry
+
+- **Product Detail Page**
+  - View product title, price, description, and rating
+  - Add to Cart button
+
+- **Cart**
+  - Add to cart from the product detail page
+  - Cart state is persisted in `localStorage` (remains after refresh)
+  - No cart summary page required (per requirements)
+
+- **UI / UX**
+  - Dark/Light mode toggle (persisted in localStorage)
+  - Mobile-first responsive design
+  - Clean and minimal layout
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/) (React framework)
+- [Fake Store API](https://fakestoreapi.com/) (Product data)
+- [React Icons](https://react-icons.github.io/react-icons/) (Icons)
+- LocalStorage (Cart + Theme persistence)
+- CSS / Flexbox / Grid for layout
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Ramatulasi-Vagicharla/store.git
+cd store
